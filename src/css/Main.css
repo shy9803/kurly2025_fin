@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* 메인 영역 */
+.recommend, .item_list {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.md_item {
+  text-align: center;
+  font-weight: normal;
+}
+
+.item_tab, .item_list > ul {
+  display: flex;
+  justify-content: center;
+}
+
+/* 탭 메뉴 */
+.item_tab {
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.item_tab > li {
+  background: #eee;
+  margin: 6px;
+  padding: 10px 14px;
+  border-radius: 35px;
+  font-size: 14px;
+}
+.item_tab > li.itm_act {
+  background: #5F0080;
+  color: #fff;
+}
+.item_tab > li.itm_act > a {
+  color: #fff;
+}
+
+/* 상품 목록 */
+.item_list {
+  margin: 50px auto;
+}
+/* 상품 목록-제목, 내용 소개 */
+.itm_list_tit, .itm_list_parag {
+  text-align: center;
+}
+.itm_list_tit {
+  line-height: 45px;
+  font-size: 24px;
+}
+.itm_list_parag {
+  line-height: 32px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+/* 상품 목록 출력 */
+.items > li {
+  margin: 0 8px;
+  width: 25%;
+}
+/* 상품 목록-이미지 */
+.item_img {
+  overflow: hidden;
+  max-height: 369px; /* PC 최대 높이 369.--px */
+}
+.item_img img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+.item_img img:hover {
+  transform: scale(1.05);
+}
+/* 상품 목록-버튼(카트) */
+.cart {
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-top: 4px;
+}
+.cart svg, .cartsave {
+  color: #333;
+  justify-content: center;
+  font-size: 16px;
+}
+.cart svg { /*카트 서식 변경(공통 외)*/
+  margin-top: 2px;
+}
+.cartsave {
+  margin-left: 4px;
+}
+.cart:hover {
+  background: rgb(131, 102, 141);
+}
+.cart:hover svg, 
+.cart:hover .cartsave {
+  color: #fff;
+}
+/* 상품 목록-라벨 */
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #BD76FF;
+  padding: 5px 7px;
+  font-size: 13px;
+  color: #fff;
+}
+/* 상품 목록-내용 */
+.item_txt {
+  font-size: 16px;
+}
+.item_txt > .item_name {
+  margin: 8px 0;
+}
+
+.item_txt p {
+  margin: 2px 0;
+  width: 100%;
+  /* 이하 속성 말줄임표 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*2단 이상일때 white-space: nowrap; 불필요*/
+  display: -webkit-box; /*해당 영역을 box 형태로 관리*/
+  -webkit-line-clamp: 2; /*영역 내 컨텐츠 최대 라인 수*/
+  -webkit-box-orient: vertical; /*영역 박스 내 정렬 결정 속성(가로/세로)*/
+  line-clamp: 2;
+}
+.item_txt > p > span {
+  font-weight: bold;
+}
+.item_txt .price_disc {
+  color: orangered;
+  margin-right: 8px;
+}
+.item_txt > s {
+  color: #ccc;
+}
+/* 랭킹 */
+.rankitem > li {
+  background: #f2f2f2;
+  padding: 7px;
+  width: 20%;
+}
+.ranknum {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
+  width: 20px;
+}
+
+/* 랜덤 배너 */
+.random_banner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.random_banner img {
+  width: 100%;
+}

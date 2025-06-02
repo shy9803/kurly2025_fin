@@ -1,0 +1,6 @@
+{"familyfood" : [
+  {"id" : "1", "imgname" : "famfood01.jpeg", "title" : "[압구정주꾸미] 주꾸미 볶음 2종 (택1)", "oprice" : "8,900원", "sale" : "22%", "price" : "6,900원~"},
+  {"id" : "2", "imgname" : "famfood02.jpg", "title" : "[KF365] 에어프라이어용 미니 돈까스 2종", "oprice" : "9,900원", "sale" : "30%", "price" : "6,990원~"},
+  {"id" : "3", "imgname" : "famfood03.jpg", "title" : "[KF365] 오리지널 바베큐폭립 2종", "oprice" : "14,500원", "sale" : "25%", "price" : "10,870원~"},
+  {"id" : "4", "imgname" : "famfood04.jpg", "title" : "[서촌 영화루] 고추 짬뽕 2인분", "oprice" : "13,800원", "sale" : "20%", "price" : "11,040원~"}
+]}

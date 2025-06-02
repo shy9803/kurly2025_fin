@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* SubHeader.css */
+.sub_h {
+  max-width: 1200px;
+  width: 100%;
+  margin: 15px auto;
+}
+/* 로고 및 서브메뉴 */
+.h_top {
+  display: flex;
+  justify-content: space-between;
+}
+/* 로고 */
+.h_top > h1 img {
+  width: 100%;
+}
+/* 서브 메뉴 */
+.lnb > ul, .gnb > ul {
+  display: flex;
+  justify-content: center;
+}
+.lnb > ul > li {
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+/* 메뉴 */
+.h_bottom {
+  border-bottom: 2px solid #ececec;
+}
+.gnb > ul > li {
+  text-align: center;
+  margin: 0 30px;
+  font-size: 16px;
+  line-height: 35px;
+}

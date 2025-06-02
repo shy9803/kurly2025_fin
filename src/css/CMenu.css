@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.cmenu {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cmenu > h3 {display: none;}
+.cmenu img {width: 100%;}

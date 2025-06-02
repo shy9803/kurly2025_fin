@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* 푸터 영역 */
+footer {
+  background: #eee;
+}
+footer > address {
+  font-style: normal;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+}

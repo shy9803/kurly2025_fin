@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Swiper Slide 서식 변경 사항 */
+.swiper-button-prev, .swiper-button-next {
+  color: #5F0080 !important;
+}
+
+.swiper-pagination-bullet-active, .swiper-pagination-bullet-active {
+  background: #5F0080 !important;
+}
